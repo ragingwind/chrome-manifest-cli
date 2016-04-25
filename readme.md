@@ -1,6 +1,6 @@
 # chrome-manifest-cli [![Build Status](https://travis-ci.org/ragingwind/chrome-manifest-cli.svg?branch=master)](https://travis-ci.org/ragingwind/chrome-manifest-cli)
 
-> My laudable module
+> Cli for helping you create a manifest for Chrome extension and apps
 
 
 ## Install
@@ -12,57 +12,27 @@ $ npm install --save chrome-manifest-cli
 
 ## Usage
 
-```js
-const chromeManifestCli = require('chrome-manifest-cli');
-
-chromeManifestCli('unicorns');
-//=> 'unicorns & rainbows'
-```
-
-
-## API
-
-### chromeManifestCli(input, [options])
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
-
-
-## CLI
-
 ```
 $ npm install --global chrome-manifest-cli
 ```
 
 ```
-$ chrome-manifest-cli --help
+$ chrome-manifest --help
 
   Usage
-    chrome-manifest-cli [input]
+    chrome-manifest [type]
 
   Options
-    --foo  Lorem ipsum. [Default: false]
+    --foo
 
   Examples
-    $ chrome-manifest-cli
+    $ chrome-manifest app
     unicorns & rainbows
-    $ chrome-manifest-cli ponies
+    $ chrome-manifest [ext | extension]
     ponies & rainbows
 ```
 
 
 ## License
 
-MIT © [ragingwind](http://ragingwind.me)
+MIT © [Jimmy Moon](http://ragingwind.me)
