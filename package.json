@@ -1,0 +1,40 @@
+{
+  "name": "chrome-manifest-cli",
+  "version": "0.0.0",
+  "description": "Cli for helping you create a manifest for Chrome extension and apps",
+  "license": "MIT",
+  "repository": "ragingwind/chrome-manifest-cli",
+  "author": {
+    "name": "ragingwind",
+    "email": "ragingwind@gmail.com",
+    "url": "ragingwind.me"
+  },
+  "bin": {
+    "chrome-manifest": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "chrome",
+    "chrome-manifest",
+    "manifest",
+    "Chrome apps",
+    "Crhome extension"
+  ],
+  "dependencies": {
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "xo": "^0.14.0"
+  }
+}
