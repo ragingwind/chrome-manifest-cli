@@ -31,6 +31,8 @@
     "Crhome extension"
   ],
   "dependencies": {
+    "chrome-manifest": "^0.2.8",
+    "decamelize-keys": "^1.1.0",
     "meow": "^3.7.0"
   },
   "devDependencies": {
