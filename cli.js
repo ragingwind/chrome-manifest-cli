@@ -26,4 +26,4 @@ const cli = meow([`
 
 const flags = decamelizeKeys(cli.flags, '_');
 
-console.log(chromeManifestCli(cli.input[0] || 'unicorns'));
+console.log(cm(flags || 'unicorns'));
